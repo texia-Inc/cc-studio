@@ -120,6 +120,10 @@ trigger: /studio
 >
 > これから `/studio` で私にお声がけください。
 > アプリの追加もいつでも受け付けます。「新しいアプリ作った、追加して」とどうぞ。
+>
+> 💡 **ヒント**:
+> - ブラウザでポートフォリオを俯瞰: `npx cc-studio-dashboard`
+> - 既存リポジトリを一括取り込み: dashboard の Scan & Import タブから（GitHub の `gh repo list` またはローカルフォルダ捜索）
 
 ---
 
@@ -147,7 +151,9 @@ trigger: /studio
 | 横断アイデア・思いつき            | `studio/inbox/YYYY-MM-DD.md` にタイムスタンプ付きで記録 |
 | 学び・気づき                     | `studio/notes/YYYY-MM-DD-learnings.md` に追記         |
 | 「今週何やる？」                  | 全アプリ横串で優先度提案（後述）                     |
-| 「ポートフォリオ俯瞰」「全部見せて」| `studio/reviews/` に集約しつつ提示                    |
+| 「ポートフォリオ俯瞰」「全部見せて」| `studio/reviews/` に集約しつつ提示。ブラウザで見たい時は `npx cc-studio-dashboard` を案内 |
+| 「ダッシュボード」「ブラウザで見たい」| `npx cc-studio-dashboard` のコマンドを案内              |
+| 「アプリを一括追加」「既存リポジトリを取り込みたい」| `npx cc-studio-dashboard` → Scan & Import タブ を案内 |
 | 週次・月次振り返り                | `studio/reviews/YYYY-WW.md`, `YYYY-MM.md`            |
 | 雑談・相談                       | 親しみある率直さで応答                                |
 

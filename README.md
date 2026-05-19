@@ -93,9 +93,21 @@ Claude Code 内で:
 マネージャー: 承知しました。種類とスタックを教えてください。
 ```
 
+## Web ダッシュボード（オプション）
+
+ブラウザでポートフォリオを俯瞰したり、既存リポジトリを GitHub / ローカルから一括取り込みできます。
+
+```bash
+npx cc-studio-dashboard
+```
+
+詳細: [cc-studio-dashboard](https://github.com/texia-Inc/cc-studio-dashboard)
+
 ## 動作要件
 
 - Claude Code（プラグイン対応版）
+- 任意: [cc-studio-dashboard](https://github.com/texia-Inc/cc-studio-dashboard) でブラウザ管理を使う場合は Node.js 18+
+- 任意: GitHubから一括取り込みを使う場合は `gh` CLI（認証済み）
 
 ## ライセンス
 
