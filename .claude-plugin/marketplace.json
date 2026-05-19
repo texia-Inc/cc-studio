@@ -1,0 +1,24 @@
+{
+  "name": "cc-studio",
+  "owner": {
+    "name": "texia-Inc"
+  },
+  "metadata": {
+    "description": "個人開発者のための仮想スタジオ管理プラグイン。スタジオマネージャーが窓口、各アプリが独立部署。"
+  },
+  "plugins": [
+    {
+      "name": "studio",
+      "source": "./plugins/studio",
+      "description": "個人開発者のための仮想スタジオ管理プラグイン。スタジオマネージャーが窓口、各アプリが独立部署として管理される。",
+      "version": "0.1.0",
+      "author": {
+        "name": "texia-Inc"
+      },
+      "repository": "https://github.com/texia-Inc/cc-studio",
+      "license": "MIT",
+      "category": "productivity",
+      "tags": ["studio", "indie", "indie-dev", "portfolio", "app-management", "productivity"]
+    }
+  ]
+}
